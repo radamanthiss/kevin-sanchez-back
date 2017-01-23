@@ -1,0 +1,13 @@
+Se evidencian malas prácticas al momento de que en las validaciones se llama la misma linea de código en repetidas ocasiones para retornar un resultado, 
+igualmente sucede con la carga de los datos por GET, ya que se hace el mismo llamado en vez de hacerlo una sola vez y almacenar el valor en una variable.
+Se evidencia que no hay una clase general para el archivo solo se define la funcion sin tener una clase, se ve que hay codigo innecesario comentado dentro
+del archivo, ademas en algunos if usan comparaciones que podrian reemplazarse por otros tipos como en el caso del NULL en vez de usarlo podemos usar empty
+
+
+-- correcciones --
+
+Se definen variables generales
+Como correcciones en el código, lo que hice fue simplificar las condiciones y la respuesta de los procesos guardarla en una variable 
+para que al final solo se haga un retorno de acuerdo a las condiciones efectuadas, 
+lo mismo hice para corregir los multiples llamados al metodo GET, dicho resultado lo guardé en una variable y la utilizo las veces que sea necesario. 
+Finalmente borré los comentarios innecesarios en el código.

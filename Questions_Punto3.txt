@@ -1,0 +1,26 @@
+En qué consiste el principio de responsabilidad única? ¿Cuál es su propósito?
+* El principio de responsabilidad única consiste en definir de manera acertiva las diferentes agrupaciones de funciones que se van a utilizar 
+para el desarrollo de un proyecto, teniendo en cuenta que dicha agrupacion debe corresponder a una responsabilidad específica dentro del alcance del desarrollo, 
+con el fin de reducir el impacto en el mismo al momento de efectuarse algun cambio en las diferentes funciones. Tomando casos muy concretos,
+ debería existir una agrupacion cuya responsabilidad sea el manejo de la base de datos (Consultas, actualizaciones, borrado, entre otras), 
+establece que cada módulo o clase debe tener responsabilidad sobre una sola parte de la funcionalidad proporcionada por el software 
+y esta responsabilidad debe estar encapsulada en su totalidad por la clase. 
+Todos sus servicios deben estar estrechamente alineados con esa responsabilidad. solo debe tener una razon para cambiar 
+
+El propósito de este principio es, principalmente, simplificar el código, facilitando su mantenimiento y lo que ello conlleva
+
+¿Qué características tiene según tu opinión “buen” código o código limpio?
+* Desde mi punto de vista, un código limpio debe corresponder en primera medida a documentar los aspectos impresionantes del mismo, 
+evitar los ciclos infinitos y definir los caminos óptimos al momento de usar estructuras de validación, 
+crear funciones que tenga un fin especifico para evitar error innecesarios provocados por la inmensa cantidad de lineas de código.
+podemos definir tambien varias caracteristicas de buen codigo 
+
+- debe cumplir con SRP (Single Responsability Principle)
+- No se redundante
+- Codigo simple
+- Codigo entendible por otros desarrolladores
+- Debe tener dependencias minimas 
+- Pocas lineas de codigo
+- Debe tener pruebas unitarias y de aceptación
+- Codigo expresivo
+
