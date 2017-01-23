@@ -29,18 +29,6 @@ Esta capa se encarga de guardar los datos de las respectivas sesiones de cada us
  - Datos.php que se encarga de manejar todo lo respectivo a las sesiones, al separar esta capa del resto de la aplicacion se permite que en un futuro sea más fácil cambiar la capa de persistencia sin afectar el resto de la aplicacion.
 
 
-Ejemplo
---------
 
-
-    Tests: 2
-	N Matrix: 4
-	N Comandos: 5
-
-	UPDATE 2 2 2 4
-	QUERY 1 1 1 3 3 3
-	UPDATE 1 1 1 23
-	QUERY 2 2 2 4 4 4
-	QUERY 1 1 1 3 3 3
 
 El punto 2 es el archivo Refactory_Punto2 y el punto 3 es el archivo Questions_Punto3
