@@ -43,4 +43,4 @@ Ejemplo
 	QUERY 2 2 2 4 4 4
 	QUERY 1 1 1 3 3 3
 
-
+El punto 2 es el archivo Refactory_Punto2 y el punto 3 es el archivo Questions_Punto3
